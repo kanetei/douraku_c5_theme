@@ -1,0 +1,16 @@
+# Created by https://www.gitignore.io
+
+### NetBeans ###
+nbproject/
+
+### Concrete5 ###
+application/bootstrap/
+application/config/
+application/files/
+application/languages/
+concrete/
+packages/
+updates/
+LICENSE.TXT
+index.php
+robots.txt
