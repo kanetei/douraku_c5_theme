@@ -4,13 +4,17 @@
 nbproject/
 
 ### Concrete5 ###
-application/bootstrap/
-application/config/
-application/files/
-application/languages/
-concrete/
-packages/
-updates/
-LICENSE.TXT
-index.php
-robots.txt
+c5/concrete/
+c5/config/
+c5/languages/
+c5/INSTALL.md
+c5/LICENSE.TXT
+c5/index.php
+c5/robots.txt
+
+### Foundation ###
+
+work/bower_components/
+work/css/
+work/node_modules/
+work/README.md

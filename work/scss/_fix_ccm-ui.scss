@@ -1,0 +1,38 @@
+/**
+ * Override Foundation base styles
+ */
+body{
+	position: inherit;
+}
+.page {
+	position: relative;
+}
+
+/**
+ * Fixes broken ccm edit ui
+ */
+.ccm-ui *, .ccm-ui *:before, .ccm-ui *:after {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.ccm-ui .tabs {
+	height: auto;
+}
+.ccm-ui .tabs li {
+	border-top: none;
+	margin-top: 0;
+}
+.ccm-ui .tabs li a {
+	font-size: inherit;
+	height: auto;
+	padding: 8px 12px;
+}
+.ccm-ui input, .ccm-ui textarea, .ccm-ui keygen, .ccm-ui select, .ccm-ui button,
+.ui-dialog input, .ui-dialog textarea, .ui-dialog keygen, .ui-dialog select, .ui-dialog button {
+	display: inline-block;
+	width: auto;
+}
+.ccm-ui select, .ui-dialog select {
+	width: auto;
+}
