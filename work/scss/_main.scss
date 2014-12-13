@@ -1,0 +1,97 @@
+.main {
+    margin: 20px 0 100px;
+    .main-contents {
+        margin-top: 20px;
+    }
+    h2 {
+        position: relative;
+        padding: 9px;
+        padding-left: 15px;
+        font-weight: bold;
+        font-size: rem-calc(18);
+        background-color: $secondary-color;
+        color: $oil;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        &:before{
+            content:''; 
+            height: 25px; 
+            width: 2px; 
+            display: block; 
+            position: absolute; 
+            top: 8px; 
+            left: 5px; 
+            background-color: $alert-color;
+            border-left: 4px solid $alert-color;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+        }
+    }
+    h3 {
+        position: relative;
+        margin-right: 12px;
+        margin-bottom: 16px;
+        padding: 14px 15px 0px 20px;
+        font-size: rem-calc(16);
+        color: $white;
+        background: $primary-color;
+        box-shadow:
+            12px 0 0 0 $primary-color,
+            0 12px 0 0 $primary-color,
+            1px 15px 4px -3px rgba(0,0,0,0.2);
+        &:before{
+            content: " ";
+            position: absolute;
+            top: 100%;
+            left: 100%;
+            width: 0;
+            height: 0;
+            border-width: 12px 12px 0 0;
+            border-style: solid;
+            border-color: transparent;
+            border-top-color: $alert-color;
+        }
+    }
+    h4 {
+        position: relative;
+        margin-bottom: 16px;
+        padding: 9px;
+        font-weight: bold;
+        font-size: rem-calc(16);
+        background-color: $alert-color;
+        color: $white;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        &:before{
+            content:''; 
+            height: 0; 
+            width: 0; 
+            display: block; 
+            border: 13px transparent solid; 
+            border-right-width: 0; 
+            border-left-color: $alert-color; 
+            position: absolute; 
+            top: 25px; 
+            left: 15px;
+            transform: rotate(-270deg);
+            -webkit-transform: rotate(-270deg);
+            -moz-transform: rotate(-270deg);
+            -o-transform: rotate(-270deg);
+            -ms-transform: rotate(-270deg);
+        }
+    }
+    img {
+        margin: 10px;
+        padding: 3px;
+        border: 1px solid $iron;
+    }
+    table {
+        th {
+            white-space: nowrap;
+        }
+    }
+}
+

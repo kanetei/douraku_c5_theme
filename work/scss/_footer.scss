@@ -1,0 +1,32 @@
+.site-footer {
+    padding: 60px 0;
+    background: url("../img/bg/bg_footer.jpg") repeat center center;
+    .row {
+        position: relative;
+    }
+    .footer-text {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        padding: 15px 15px 0;
+        background-color: rgba(255,255,255,0.8);
+        h2 {
+            padding-left: 10px;
+            font-size: rem-calc(18);
+            font-weight: bold;
+            border-left: 3px solid $primary-color;
+        }
+        dl {
+            dt {
+                float: left;
+                clear: left;
+            }
+            dd {
+                float: left;
+            }
+        }
+    }
+    .googleMapCanvas {
+        height: 500px;
+    }
+}

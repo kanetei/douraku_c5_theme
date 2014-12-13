@@ -1,0 +1,20 @@
+.site-header {
+    h1.title {
+	position: relative;
+        margin: 0;
+	padding: 15px 0 12px;
+        font-family: $font-family-serif;
+        font-size: rem-calc(36);
+        line-height: 1.6em;
+        font-weight: bold;
+	text-align: center;
+	border-top: 1px dashed #aaa;
+	border-bottom: 1px dashed #aaa;
+	background: url("../img/bg/bg_header.jpg") repeat center center;
+	text-shadow: 1px 1px 0 rgba(255,255,255,1);
+	box-shadow: 0 5px 4px -4px rgba(0,0,0,0.3) inset;
+        a {
+            color: $oil;
+        }
+    }
+}

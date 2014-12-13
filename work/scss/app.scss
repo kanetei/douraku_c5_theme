@@ -39,4 +39,28 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
+@import "fa/variables";
+@import "fa/mixins";
+@import "fa/path";
+@import "fa/core";
+@import "fa/larger";
+@import "fa/fixed-width";
+@import "fa/list";
+@import "fa/bordered-pulled";
+@import "fa/spinning";
+@import "fa/rotated-flipped";
+@import "fa/stacked";
+@import "fa/icons";
+
 @import "fix_ccm-ui";
+
+@import "header";
+
+@import "main";
+
+@import "footer";

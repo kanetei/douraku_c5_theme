@@ -4,8 +4,8 @@ $navItems = $controller->getNavItems();
 <div class="contain-to-grid sticky">
     <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
-            <li class="name"><h1><a href="/">ホーム</a></h1></li>
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            <li class="name"><h1><a href="#"><i class="fa fa-home"></i></a></h1></li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>メニュー</span></a></li>
         </ul>
         <section class="top-bar-section">
             <ul class="left">

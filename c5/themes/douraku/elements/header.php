@@ -9,11 +9,9 @@
 </head>
 <body>
 <div class="page">
-    <header class="row">
-        <div class="large-12 columns">
+    <header class="site-header">
         <?php
             $a = new GlobalArea('Site Title');
             $a->display();
         ?>
-        </div>
     </header>
